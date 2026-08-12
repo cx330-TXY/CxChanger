@@ -1,6 +1,9 @@
 # [CxChanger]
 
 [CxChanger]是一种FDM3D打印多材料/多色解决方案。通过在打印打印过程中切换预热好的装载不同耗材的热端实现快速多材料打印。其目标是实现尽可能低成本且简单稳定的多材料打印，为了实现较高的适配性，热端切换只需要打印头XY轴运动就可实现，且切换结构与热端无关，可以通过修改热端固定件等实现其他热端的兼容。
+
+(English Language Readme is available here)[./README-EN.md]
+
 <img width="3960" height="3060" alt="打印头" src="https://github.com/user-attachments/assets/66c70b3b-5862-4e04-8ac4-0b782e6da9f5" />
 
 ![QQ20260404-193802](https://github.com/user-attachments/assets/bb0c0aa7-5b82-490f-add7-e86a71225352)
