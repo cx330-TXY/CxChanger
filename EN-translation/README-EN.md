@@ -69,7 +69,7 @@ See the BOM sheet
 ### toolchange.cfg
    1. Add toolchange.cfg. Once added successfully, T0, T1, T2 and UNTOOL commands will appear in the dashboard. (Do not click them before setting the coordinates — it will crash the head.) Clicking T0 picks up T0; after picking up T0, clicking T1 automatically unloads T0 and picks up T1; clicking UNTOOL unloads the current hotend.
    2. Mount the dock and adjust the dock coordinates: manually attach a hotend to the print head, move the print head to the far right of the X axis, then move it forward. Fix the first dock in the position where the hotend locking screw just passes through the dock's large hole (this position is the coordinate of the first dock). Then remove the hotend, home all axes, re-attach the hotend to the print head, and slowly move the print head to the dock position you just found so the locking screw passes through the dock's large hole. Note the coordinates and enter them as T0's dock position in toolchange.cfg. Each dock occupies 30 mm of width, so the other dock coordinates form an arithmetic sequence; fine-tune each dock's coordinates if there is any error.
-   <img width="1539" height="1043" alt="image" src="https://github.com/user-attachments/assets/392c5682-040e-4cc8-8034-a8e724e259c7" />
+   <img width="1539" height="1043" alt="Dock coordinate diagram" src="img/diagram-en.png" />
 
    
    3. After setting the coordinates correctly, comment out the normal speed and uncomment the test speed, then run switching tests at slow speed (so you can hit emergency stop immediately if anything is misaligned).
