@@ -1,6 +1,6 @@
 # [CxChanger]
 
-> **Attribution / Credit**: Initial translation courtesy of [WheelsTheCat](https://github.com/WheelsTheCat/CxChanger). Translated content includes the README, Klipper configuration comments/messages, BOM spreadsheet, file names, and component/body names inside the STEP files. For the latest updates, see the original repository.
+> **Attribution / Credit**: Initial translation courtesy of [WheelsTheCat](https://github.com/WheelsTheCat/CxChanger). Translated content includes the README, Klipper configuration comments/messages, BOM spreadsheet, file names. For a translated STEP file refer to his repository.
 
 [CxChanger] is a multi-material / multi-color solution for FDM 3D printing. It achieves fast multi-material printing by switching between preheated hotends loaded with different filaments during the print. The goal is multi-material printing that is as low-cost, simple, and stable as possible. For high adaptability, hotend switching only requires XY-axis motion of the print head, and the switching mechanism is independent of the hotend itself — other hotends can be made compatible by modifying the hotend mounting parts.
 <img width="3960" height="3060" alt="Print head" src="https://github.com/user-attachments/assets/66c70b3b-5862-4e04-8ac4-0b782e6da9f5" />
